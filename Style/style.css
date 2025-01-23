@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/*Nav links */
+#navbarNav a:hover {
+  text-decoration: underline;
+  transition: 10s ease-in-out;
+}
+
+.navbar-nav .active a {
+  text-decoration: underline;
+}
+
+/* Hero sec */
+.header {
+  background: url('/Images/hero1.avif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+}
+
+#header h1 {
+  font-size: 50px;
+  font-style: italic;
+}
+
+#header p {
+  font-size: 20px;
+}
+
+/* Aside */
+.list-group li a {
+  color: rgb(225, 142, 142) !important;
+  text-decoration: none;
+}
+
+/* Social media links */
+#icons a {
+  text-decoration: none;
+}
+
+#icons i {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+/* share this article */
+#social-links a {
+  padding-right: 10px;
+}
+
+.bi-share-fill {
+  padding: 5px;
+}
+
+/* Related news */
+.hr-bold {
+  border: 0; 
+  height: 3px; 
+  background-color: #000;
+}
+
+/* More */
+#textdark a {
+  text-decoration: none;
+  transition: 10s ease-in-out;
+}
+
+#textdark a:hover {
+  text-decoration: underline;
+  transition: 10s ease-in-out;
+}
+
+/* hr */
+.container.border-muted {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
